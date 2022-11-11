@@ -17,9 +17,10 @@
 			<property name="hbm2ddl.auto">create</property>
 			<property name="show_sql">true</property>
 			
+			<!--
 			<mapping resource="product.hbm.xml"/>
-			
-	
+			-->
+			<mapping class="com.cgi.main.entity.Product"/>
 	</session-factory>
 
 

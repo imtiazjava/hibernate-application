@@ -5,6 +5,8 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
+import com.cgi.main.entity.Product;
+
 public class ClientCode {
 
 	public static void main(String[] args) {
@@ -34,7 +36,7 @@ public class ClientCode {
 		
 		//step6: create pojo class object and store the data into that
 		Product product=new Product();
-		product.setPid(3);
+		//product.setPid(1);
 		product.setPname("ipad");
 		product.setPrice(30000.00);
 		
